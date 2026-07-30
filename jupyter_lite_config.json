@@ -1,0 +1,7 @@
+{
+  "LiteBuildConfig": {
+    "contents": ["content"],
+	"no_sourcemaps": true,
+	"apps": ["lab", "xeus"]
+  }
+}

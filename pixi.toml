@@ -1,0 +1,51 @@
+[workspace]
+authors = ["Carlos Herrero <26092748+hbcarlos@users.noreply.github.com>"]
+channels = ["conda-forge"]
+name = "lab"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = ">=3.14.6,<3.15"
+nodejs = ">=26.5.0,<26.6"
+# Lite
+jupyterlite-core = "==0.8.0"
+jupyterlab = "~=4.6.0"
+notebook = "~=7.6.0"
+# Kernels
+jupyterlite-pyodide-kernel = ">=0.8.0"
+jupyterlite-xeus = ">=5.0.0,<6"
+xeus-python = ">=0.14.0"
+xeus-sqlite = ">=0.1.0"
+xeus-cpp = "~=0.15.0"
+xeus-r = "~=0.11.0"
+xeus-octave = "~=0.6.0"
+jupyterlite-javascript-kernel = "*"
+#jupyterlite-p5-kernel = "*"
+# Languaje
+jupyterlab-language-pack-es-ES = "*"
+jupyterlab-language-pack-ca-ES = "*"
+# Themes
+jupyterlab-night = "*"
+jupyterlab_miami_nights = "*"
+# Lab extensions
+jupyterlab-fasta = ">=3.3.0,<4"
+jupyterlab-geojson = ">=3.4.0,<4"
+voila-gridstack = ">=0.4.0,<0.5"
+jupyterlab-filesystem-access = "*"
+# Widgets
+ipywidgets = ">=8.1.3,<9"
+ipyevents = ">=2.0.1"
+ipympl = ">=0.8.2"
+ipycanvas = ">=0.9.1"
+ipyleaflet = "~=0.20"
+# Python
+matplotlib = "*"
+plotly = ">=6,<7"
+bqplot = "*"
+
+[pypi-dependencies]
+jupyterlite-p5-kernel = "*"
+jupyterlab-open-url-parameter = "*"
